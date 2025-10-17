@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+
+    <title>BTS_1.1</title>
+</head>
+<body>
+  <div class="container mt-5">
+
+    <h1>BTS_1.1 - Bootstrap Get Started</h1>
+
+    <h3>1. A cosa serve Bootstrap?</h3>
+    <p>
+      Bootstrap è un framework open-source per lo sviluppo di interfacce web responsive e mobile-first. 
+      Fornisce componenti HTML, CSS e JavaScript già pronti per creare layout moderni in modo semplice e veloce.
+    </p>
+
+    <h3>2. Cosa devi importare per creare una pagina web con Bootstrap?</h3>
+    <p>Esempio di codice da inserire nella &lthead&gt della pagina:</p>
+    <pre>
+&ltmeta name="viewport" content="width=device-width, initial-scale=1"&gt
+&ltlink href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"&gt
+&ltscript src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"&gt&lt/script&gt
+    </pre>
+
+    <h3>3. Cos’è un CDN? Che vantaggi comporta?</h3>
+    <p>
+      Un CDN (Content Delivery Network) è una rete distribuita di server che consente di caricare risorse (come Bootstrap) più velocemente.
+      I vantaggi includono:
+      <ul>
+        <li>Caricamento più rapido grazie ai server distribuiti</li>
+        <li>Non è necessario scaricare Bootstrap e inserirlo nel progetto</li>
+        <li>Meno spazio occupato nei file locali</li>
+      </ul>
+    </p>
+
+    <h3>4. A cosa serve questo attributo?</h3>
+    <code>content="width=device-width, initial-scale=1"</code>
+    <p>
+      Serve a rendere la pagina responsive: imposta la larghezza della pagina alla larghezza del dispositivo e il livello di zoom iniziale a 1.
+    </p>
+
+    <h3>5. Differenza tra Container e Container-fluid?</h3>
+    <p>
+      <strong>Container</strong>: ha una larghezza massima fissa e si adatta automaticamente al breakpoint corrente.<br>
+      <strong>Container-fluid</strong>: occupa sempre il 100% della larghezza disponibile, su qualsiasi dispositivo.
+    </p>
+    <p>Per provare un container fluid, vedi il file <strong>BTS_1.1.1.html</strong></p>
+ 
+  </div>
+</body>
+</html>
